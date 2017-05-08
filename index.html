@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector Game!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+      <div class="title">Crystals Collector!</div>
+
+
+  <div class="main-container"><!-- class 1 -->
+    <section id="rules"> 
+
+      <p>You will be given a random number at the start of the game.</p>
+
+      <p>There are four crystals below. By cliking on a crystal you will add a specific amount of points to your total score.</p>
+
+      <p>You win the game by matching your total score to random number. you lose the game ifyour total score goes above the random number.</p>
+      
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+
+      <p>Each time wehn the game stars, the game will change the values of each crystal.</p>
+
+    </section>
+  </div>
+
+      <div id="number"> </div>
+    
+    <div id="counter">
+      <h3>Wins:<span id="win">0</span></h3>
+      <h3>Losses:<span id="loss">0</span></h3>
+    </div>
+    
+    <div class="images">
+      <img id="red"  src="assets/images/red.jpg"/>
+      <img id="blue" src="assets/images/blue.jpg"/>
+      <img id="yellow" src="assets/images/yellow.jpg"/>
+      <img id="purple"  src="assets/images/purple.jpg"/>
+    </div>
+    
+    <div class="total">
+      <h3>Your total Score is:</h3>
+
+      <h3 id="score">0</h3>
+      <button id="reload">Start Over</button>
+    </div>
+
+
+  <footer>
+    <div class="container"> <!-- class 1 -->
+      Copyright &copy; 2017 Sherry Bao
+    </div>
+  </footer>
+</body>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
